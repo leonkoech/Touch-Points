@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+    tools:context=".VerifyPoints">
+    <TextView
+        android:id="@+id/actionname"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Action type" />
+    <EditText
+        android:id="@+id/actiontype"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Action type"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <TextView
+        android:id="@+id/xaxisname"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="X-axis" />
+    <EditText
+        android:id="@+id/xtype"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="X-axis"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <TextView
+        android:id="@+id/yaxisname"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Y-axis" />
+    <EditText
+        android:id="@+id/ytype"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Y-axis"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:background="#FFE644"
+        android:textAllCaps="false"
+
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+
+</LinearLayout>
