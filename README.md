@@ -17,7 +17,7 @@ The  methods available for injecting events programmatically;
       
       Sadly, both options required ```INJECT_EVENTS``` which is a system permission
       
-      This is the exception it produces;
+      This is the exception it raises;
       
       ```java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission```
       
