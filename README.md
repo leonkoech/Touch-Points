@@ -61,4 +61,4 @@ Please read the [Contribution](#) guide.
 
 ## License
 
-This project is under the [MIT](#) license
+This project is under the [MIT](https://github.com/leonkoech/Touch-Points/blob/master/LICENSE) license
